@@ -14,7 +14,7 @@ const Header = () => {
             <HeaderItem title='SEARCH' Icon={SearchIcon} />
             <HeaderItem title='ACCOUNT' Icon={UserIcon} />
         </div>
-        <Image className="object-contain" src={logo} width={300} height={100} />
+        <Image className="object-contain" alt='photo' src={logo} width={300} height={100} />
     </header>
   )
 }
